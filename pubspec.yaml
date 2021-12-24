@@ -1,5 +1,5 @@
 name: eip55
-description: Convert an upper or lowercase Web3/Ethereum address to a checksum address (EIP55).
+description: Utility to convert an upper or lowercase Web3/Ethereum address to a checksum address (EIP55).
 version: 1.0.0
 homepage: https://pwa.ir
 repository: https://github.com/xclud/dart_eip55
