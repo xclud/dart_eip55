@@ -4,10 +4,10 @@ import 'dart:typed_data';
 
 import 'package:pointycastle/export.dart';
 
-/// Converts an upper or lowercase Web3/Ethereum address to a checksum address (EIP55).
+/// Converts an upper or lower case Web3/Ethereum address to a checksum address (EIP55).
 String toChecksumAddress(String address) => toEIP55Address(address);
 
-/// Converts an upper or lowercase Web3/Ethereum address to a checksum address (EIP55).
+/// Converts an upper or lower case Web3/Ethereum address to a checksum address (EIP55).
 String toEIP55Address(String address) {
   bool startsWith0x = address.startsWith('0x') || address.startsWith('0X');
   if (startsWith0x) {
