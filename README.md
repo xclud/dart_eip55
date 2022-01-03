@@ -1,4 +1,4 @@
-Utility to convert an upper or lowercase Web3/Ethereum address to a checksum address (EIP55).
+Utility to convert an upper or lower case Web3/Ethereum address to a checksum address (EIP55).
 
 [![pub package](https://img.shields.io/pub/v/eip55.svg)](https://pub.dartlang.org/packages/eip55)
 

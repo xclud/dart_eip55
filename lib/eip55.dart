@@ -31,7 +31,7 @@ String toEIP55Address(String address) {
 
   for (int i = 0; i < address.length; i++) {
     var n = int.parse(sha[i], radix: 16);
-    if (n > 8) {
+    if (n >= 8) {
       o.add(address[i].toUpperCase().codeUnits.first);
     } else {
       o.add(address[i].toLowerCase().codeUnits.first);
