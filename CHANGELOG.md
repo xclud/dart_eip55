@@ -1,3 +1,7 @@
+## 1.0.3
+
+- pointycastle: ^4.0.0
+
 ## 1.0.2
 
 * Bug fixed.
